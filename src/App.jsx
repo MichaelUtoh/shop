@@ -13,7 +13,6 @@ export function App() {
             <NavBar />
 
             <div className="main">
-            {/* Define all the routes */}
                 <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/account" element={<Account />}></Route>

@@ -7,8 +7,8 @@ import { VscAccount } from "react-icons/vsc";
 
 const NavBar = () => {
   return (
-    <nav className='flex items-center justify-between mx-auto p-2 w-10/12'>
-      <p className='font1 font-bold text-2xl'><Link to="/">Nazimo</Link></p>
+    <nav className='flex items-center justify-between mx-auto p-2 w-11/12'>
+      <a className='font1 font-bold text-2xl'><Link to="/">Nazimo</Link></a>
 
       <div className='border border-gray-400 flex items-center justify-end p-2 rounded-full w-4/12'>
         <input className='search-box w-11/12' />
