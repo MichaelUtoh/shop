@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Ubuntu+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font1 {font-family: 'Michroma', sans-serif;}
+.font2 {font-family: 'Ubuntu Mono', monospace;}
+
+.search-box {outline: none}
