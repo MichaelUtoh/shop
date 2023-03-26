@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react'
-import axios from "axios"
-
-import { TextInput, Box, Button, Checkbox, Container, Group } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { useQuery } from 'react-query';
+
+import axios from "axios"
 
 
 
