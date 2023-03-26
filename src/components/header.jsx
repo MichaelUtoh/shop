@@ -11,8 +11,8 @@ const NavBar = () => {
       <a className='font1 font-bold text-2xl'><Link to="/">Nazimo</Link></a>
 
       <div className='border border-gray-400 flex items-center justify-end p-2 rounded-full w-4/12'>
-        <input className='search-box w-11/12' />
-        <CiSearch />
+        <input className='font2 search-box w-11/12' />
+        <CiSearch size={20} />
       </div>
   
       <ul className='flex font-thin'>

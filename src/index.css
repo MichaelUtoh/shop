@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.colscheme1 {color: pink;}
+.colscheme2 {color: orange;}
+.colscheme3 {color: cyan;}
+.colscheme4 {color: purple;}
+
+
 .font1 {font-family: 'Michroma', sans-serif;}
-.font2 {font-family: 'Ubuntu Mono', monospace;}
+.font2 {font-family: 'Poppins', sans-serif;}
 
 .search-box {outline: none}
